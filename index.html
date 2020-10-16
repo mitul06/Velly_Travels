@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Welcome To Velly Travels</title>
+</head>
+
+<body>
+    <div id="success" class="alert alert-success alert-dismissible fade" role="alert">
+        <strong>Successfully!</strong> Your booking travel ticket has been submitted.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div id="failure" class="alert alert-danger alert-dismissible fade" role="alert">
+        <strong>Error! </strong> Your booking not submitted, Please fix error and try again.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="container my-3">
+        <div class="jumbotron">
+            <h1><strong><i><span>Velly </span><u>Travels </i></u></strong></h1>
+            <br>
+            <form>
+                <div class="form-group">
+                    <label for="name"><strong> Username</strong></label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter Your Username">
+                    <div class="invalid-feedback" id="namevalid">
+                       <strong> Your Username must have 3-10 Characters and be start with a alphabet(small or capital), it's not
+                        start wih a number </strong>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email"><strong>Email address</strong></label>
+                    <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+                    <div class="invalid-feedback" id="emailvalid">
+                       <strong>Your Email id must have start with name and .com or other like: yourname@gmail.com</strong>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="selectCar"><strong>Select Your Car</strong></label>
+                    <select class="form-control" id="selectCar">
+                        <option>Maruti Alto 800</option>
+                        <option>Hyundai i10</option>
+                        <option>Waganar</option>
+                        <option>Eccospots</option>
+                        <option>Maruti Suzuki Swift</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="tel"><strong>Your Phone Number (Country Code Required)</strong></label>
+                    <input type="text" class="form-control" id="tel" placeholder="Enter Your Phone Number">
+                    <div class="invalid-feedback" id="phonevalid">
+                       <strong>Your Phone Number must be 10 digit. or country code is Required</strong>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address"><strong>Your Address</strong></label>
+                    <textarea class="form-control" id="address" rows="3" placeholder="Enter Your Address"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="message"><strong>Enter Any Message</strong></label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Type here..."></textarea>
+                </div>
+                <button type="submit" id="submit" class="btn btn-primary"><strong>Submit Form</strong></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="JS/pro4.js"></script>
+</body>
+
+</html>

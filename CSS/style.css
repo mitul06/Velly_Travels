@@ -1,0 +1,27 @@
+body{
+    background: url(../img/britain-19228_1280.jpg) fixed;
+}
+h1{
+    text-align: center;
+}
+
+.jumbotron{
+    border-radius: 1rem;
+    border: 2px solid white;
+    background-color: #eece3f;
+}
+
+#submit{
+    background-color: #194aa5;
+    border-radius: 1rem;
+    border: 2px solid white;
+}
+
+span{
+    color: red;
+}
+
+#name, #email, #tel, #message, #address, #selectCar{
+    border-radius: 1rem;
+    border: 2px solid #b6df00;
+}
